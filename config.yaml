@@ -1,0 +1,32 @@
+baseURL: http://localhost/
+title: Meu site
+# Disable taxonomy pages (disables categories and tags folders)
+disableKinds:
+- taxonomy
+- taxonomyTerm
+# for xml output
+languageCode: "en"
+# for website
+defaultContentLanguage: "en"
+languages:
+  en:
+    weight: 1
+
+# controls number of pages displayed on list pages
+paginate: 5
+# controls the summary length on list pages
+summaryLength: 7
+
+# menu links via config file
+menu:
+  main:
+  - name: Github
+    url: http://www.github.com/
+    weight: 90
+    params:
+      blank: true
+  - name: Google
+    url: http://www.google.com/
+    weight: 100
+    params:
+      blank: true
